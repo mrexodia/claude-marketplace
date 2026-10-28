@@ -27,5 +27,19 @@ claude plugin install ida-pro-mcp@mrexodia
 Prevents your Mac from sleeping while Claude Code is actively working.
 
 ```bash
-claude plugin install claude-clamshell@mrexodia
+claude plugin install clamshell@mrexodia
+```
+
+## [toilet-pi](https://github.com/mrexodia/toilet-pi)
+
+Control sessions across machines with your browser (or mobile PWA).
+
+```bash
+claude plugin install toilet-pi@mrexodia
+```
+
+To use the channel:
+
+```bash
+claude --dangerously-load-development-channels plugin:toilet-pi@mrexodia
 ```

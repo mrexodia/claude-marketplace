@@ -17,11 +17,20 @@
       }
     },
     {
-      "name": "claude-clamshell",
+      "name": "clamshell",
       "description": "Prevents your Mac from sleeping while Claude Code is actively working.",
       "source": {
         "source": "url",
         "url": "https://github.com/mrexodia/claude-clamshell.git"
+      }
+    },
+    {
+      "name": "toilet-pi",
+      "description": "Control sessions across machines with your browser (or mobile PWA).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mrexodia/toilet-pi.git",
+        "ref": "master"
       }
     }
   ]
